@@ -1,7 +1,7 @@
 {
   "variables": {
-    "aws_access_key":  "{{env `AWS_ACCESS_KEY`}}",
-    "aws_secret_key":  "{{env `AWS_SECRET_KEY`}}",
+    "aws_access_key":  "{{env `AWS_ACCESS_KEY_ID`}}",
+    "aws_secret_key":  "{{env `AWS_SECRET_ACCESS_KEY`}}",
     "atlas_username":  "{{env `ATLAS_USERNAME`}}",
     "base_ami":        "{{env `ATLAS_BASE_ARTIFACT_AMAZON_IMAGE_ID`}}",
     "region":          "{{env `AWS_DEFAULT_REGION`}}",
