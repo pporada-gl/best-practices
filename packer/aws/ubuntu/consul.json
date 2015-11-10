@@ -33,6 +33,7 @@
       "instance_type":   "t2.micro",
       "ssh_username":    "{{user `ssh_username`}}",
       "ssh_timeout":     "10m",
+      "ssh_private_ip":  "false",
       "ami_name":        "{{user `name`}} {{timestamp}}",
       "ami_description": "{{user `name`}} AMI",
       "run_tags": { "ami-create": "{{user `name`}}" },
